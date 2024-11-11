@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "id.ac.polbeng.edisonrizal.viewdata"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "id.ac.polbeng.edisonrizal.viewdata"
@@ -32,6 +32,9 @@ android {
     }
     kotlinOptions {
         jvmTarget = "1.8"
+    }
+    buildFeatures {
+        viewBinding = true
     }
 }
 
